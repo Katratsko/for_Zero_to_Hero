@@ -11,6 +11,8 @@ body{
     font-family: monospace;
 }
 header{
+    display:flex;
+    align-items:stretch;
     background-color: #062c47;
     height:4vh;
     border-top:0vh;

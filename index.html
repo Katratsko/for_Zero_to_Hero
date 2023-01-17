@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Екатерина Ратькова</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
-    <script type="text/javascript" src="index.js"></script>
-</head>
-<body>
-<header>
-    <div class="links">
-        <a id="home" class="btn" href="./"><strong>home</strong></a>
-        <a id="work" class="btn" href="./work/work.html"><strong>work</strong> </a>
-        <a id="about" class="btn" href="./about/about.html"><strong>about</strong></a>
-        <a id="contact" class="btn" href="./contact/contact.html"><strong>contact</strong></a>
-    </div>
-</header>
-<div class="section-top">
-    <img class="nature" src="./images/nature.jpg" style="width:100%;">
-    <div class="text">
-        <h1>ПРИВЕТ!</h1>
-        <h1>Меня зовут Екатерина Ратькова.</h1>
-        <h3>И я мечтаю стать программистом.</h3>
-    </div>
-</div>
-<div class="container">
-    <div class="section-medium">
-        <img class="photo" src="./images/foto3.jpg">
-        <p class="text_section">В 2011 году я закончила Белорусский Государственный медицинский университет. Проработав
-            10 лет врачом-педиатром, я поняла, что хочу обучиться новой специальности. Совершенно в другом направлении.
-            Это был вызов самой себе! Так как переподготовки на базе высшего образования в сфере ИТ не существует, я
-            начала с курсов. В 2021 году прошла 4-месячные курсы в компании "Overone".</p>
-    </div>
-    <div class="section-bottom">
-        <img class="photo_second" src="./images/foto2.jpg">
-        <p id="text_section3" class="text_section">Далее, в 2022 году я самообучалась. Изучала основы HTML, CSS, JS,
-            Python, Django. Однако, душа лежит больше к Frontend - разработке. Буду рада попасть к вам в команду, быть
-            полезной и далее расти в данном направлении.</p>
-    </div>
-</div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Екатерина Ратькова</title>
+        <link rel="stylesheet" href="index.css" type="text/css" />
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a id="home"  href="./">home</a>
+                <a id="work"  href="./work/work.html">work</a>
+                <a id="about"  href="./about/about.html">about</a>
+                <a id="contact" href="./contact/contact.html">contact</a>
+            </nav>
+        </header>
+        <section class="banner">
+            <img src="./images/nature.jpg" />
+            <div class="banner-content">
+                <h1>ПРИВЕТ!</h1>
+                <h1>Меня зовут Екатерина Ратькова.</h1>
+                <h3>И я мечтаю стать программистом.</h3>
+            </div>
+
+        </section>
+        <section class="content-container">
+            <div class="content-item" style="background-color: #084293;">
+                <div>
+                    <img src="./images/foto3.jpg"/>
+                    <p>
+                        В 2011 году я закончила Белорусский Государственный медицинский университет. Проработав 10 лет
+                        врачом-педиатром, я поняла, что хочу обучиться новой специальности. Совершенно в другом направлении.
+                        Это был вызов самой себе! Так как переподготовки на базе высшего образования в сфере ИТ не
+                        существует, я начала с курсов. В 2021 году прошла 4-месячные курсы в компании "Overone".
+                    </p> 
+                </div>
+            </div>
+            <div class="content-item" style="background-color: #08316a;">
+                <div>
+                    <p>
+                        Далее, в 2022 году я самообучалась. Изучала основы HTML, CSS, JS, Python, Django. Однако, душа лежит
+                        больше к Frontend - разработке. Буду рада попасть к вам в команду, быть полезной и далее расти в
+                        данном направлении.
+                    </p> 
+                    <img src="./images/foto2.jpg"/>
+                </div>
+            </div>
+
+        </section>
+        
+    </body>
 </html>
