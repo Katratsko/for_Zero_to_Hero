@@ -10,21 +10,33 @@ body{
     background:#052555;
     font-family: monospace;
 }
-header{
-    display:flex;
-    align-items:stretch;
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #062c47;
-    height:4vh;
-    border-top:0vh;
-    padding-top:2vh;
+    height: 6vh;
 }
-a{
-   text-decoration: none;
+header nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    background: none;
+    color: white;
+    display: inline-block;
+    margin: auto;
+    width: 20vw;
+    font-size: 1.5vw;
+    text-align: center;
 }
-.photo{
-   width:54.5vh;
-   }
-.text{
+section.banner{
+    display: flex;
+    flex-direction: column;
+}
+section.banner img{
+    width:54.5vh;
+}
+section.banner .banner-content{
     font-size:4vh;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
@@ -40,17 +52,4 @@ a{
     padding: 3vh;
     text-align: center;
 }
-.links{
-     text-align: center;
-}
-.btn{
-    text-transform:uppercase;
-    border:none;
-    background:none;
-    color:white;
-    display: inline-block;
-    margin: 0 2vh;
-    width: 35vh;
-    font-size:120%;
-    text-align: center;
-}
+
